@@ -1,11 +1,8 @@
-<script setup>
-
-</script>
-
 <template>
-  $END$
+  <div class="card">
+    <div class="card-one">
+
+    </div>
+  </div>
 </template>
 
-<style scoped lang="scss">
-
-</style>

@@ -110,4 +110,39 @@ body{
     margin-bottom: 0;
 }
 
-
+/*-----------------------CardImg-------------*/
+.card{
+    display: flex;
+    width: 100%;
+    padding: 24px;
+    color: #fff;
+    background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 10px;
+}
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+.card-header{
+    background-color: white;
+}
+.IchanQala{
+    font-family: "Segoe UI Black";
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+.T{
+    font-family: "Segoe UI Bold";
+    color: black;
+    margin-top: 10px;
+}
+.icons{
+    display: flex;
+}
+img{
+    width: 100%;
+}
